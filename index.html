@@ -11,24 +11,5 @@
   <div id="app">我是王越超，这是我的react简历</div>
   <script>__REACT_DEVTOOLS_GLOBAL_HOOK__ = parent.__REACT_DEVTOOLS_GLOBAL_HOOK__</script>
   <script type="text/javascript" src="/assets/app.js"></script>
-  <script type="text/javascript" src="js/circles.min.js"></script>
-  <script type="text/javascript">
-  	var colors =[
-			['#ced7df', '#76b852'], ['#ced7df', '#76b852'], ['#ced7df', '#76b852'], ['#ced7df', '#76b852']
-		], circles = [];
-		
-								for (var i = 1; i <= 5; i++) {
-			var child = document.getElementById('circles-' + i),
-				percentage = 80+ (i * 2.5);
-			circles.push(Circles.create({
-				id:         child.id,
-				value:		percentage,
-				radius:     70,
-				width:      10,
-				colors:     colors[i - 1]
-			}));
-		}
-
-  </script>
 </body>
 </html>
